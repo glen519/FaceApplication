@@ -25,11 +25,14 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'androidx.core:core-ktx:1.0.2'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.squareup.okhttp3:okhttp:4.2.0'
+    implementation libraries.kotlin
+    implementation libraries.appcompat
+    implementation libraries.coreKtx
+    implementation libraries.constraintlayout
+    implementation libraries.okhttp3
+    implementation libraries.recyclerview
+    implementation libraries.lifecycleExtensions
+    implementation libraries.lifecycleViewModelKtx
 
 
     testImplementation 'junit:junit:4.12'
