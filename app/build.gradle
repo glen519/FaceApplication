@@ -33,6 +33,9 @@ dependencies {
     implementation libraries.recyclerview
     implementation libraries.lifecycleExtensions
     implementation libraries.lifecycleViewModelKtx
+    implementation libraries.navigationFragmentKtx
+    implementation libraries.navigationUiKtx
+
 
 
     testImplementation 'junit:junit:4.12'
